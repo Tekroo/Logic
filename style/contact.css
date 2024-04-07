@@ -1,0 +1,17 @@
+:root{
+    --couleur-principale: #009FE2;
+    --couleur-secondaire: #25348B;
+}
+
+span{
+    color: var(--couleur-secondaire);
+}
+map img{
+    height: 50vh;
+    width: 100%;
+}
+
+main{
+    background-color: #009FE2;
+    padding-left: 100px;
+}

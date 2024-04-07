@@ -3,9 +3,19 @@
     padding: 0;
     font-family:Arial, Helvetica, sans-serif;
 }
+
 :root{
     --couleur-principale: #009FE2;
     --couleur-secondaire: #25348B;
+}
+
+span{
+    color: var(--couleur-secondaire);
+}
+/* Main */
+main{
+    width: 90%;
+    margin: auto;
 }
 /* Mon header */
 header{
@@ -98,9 +108,7 @@ hr{
     font-size: 35px;
     padding: 50px;
 }
-#services h2 span{
-    color: var(--couleur-secondaire);
-}
+
 .smp1{
     display: flex;
 }
@@ -148,13 +156,13 @@ hr{
 
 /* Engagement */
 #engagement{
-    margin: 100px 0 100px 0;
+    margin: 200px 0 ;
 }
 .simple2{
     display: flex;
     width: 70%;
-    margin: auto;
-    justify-content: space-between;
+    margin: 100px auto;
+    justify-content:space-around;
 }
 .simple2 img{
     width: 400px;
@@ -162,5 +170,111 @@ hr{
     border-radius: 10px;
 }
 .smp3{
-    
+    margin: 30px;
+    text-align: justify;
+}
+.smp3 h3{
+    color: var(--couleur-secondaire);
+    font-size: 30px;
+    margin: 0 0  30px 20px;
+}
+.smp3 p{
+    background-color: #D3E8F5;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+/* Réalisations */
+#realisation{
+    margin: 100px auto;
+    text-align: center;
+}
+#realisation h3{
+    font-size: 35px;
+    margin: 30px;
+}
+.simple3{
+    margin: auto;
+    padding: 100px 0;
+    background-color: #D3E8F5;
+    border-radius: 25% 0;
+}
+.project{
+    margin: 40px;
+}
+.project img{
+    width: 300px;
+    height: 250px;
+    border-radius: 5px;
+}
+.project a{
+    text-decoration: none;
+    color: #fff;
+    background-color: var(--couleur-principale);
+    padding: 20px;
+    border-radius: 5px;
+}
+.smp4 ,.smp5 {
+    display: flex;
+    justify-content: center;
+}
+
+/* Nos partenaires */
+#partenaires{
+    text-align: center;
+    margin: 200px 0;
+}
+#partenaires h3{
+    font-size: 35px;
+    margin: 30px;
+}
+.simple4{
+    background: url('partenaire.jpeg') center; 
+    padding: 150px 0;
+}
+.simple4 img{
+    width: 150px;
+    height: 100px;
+    margin: 0 40px;
+}
+
+footer{
+    color: #fff;
+    text-align: center;
+}
+.simple5{
+    background-color: var(--couleur-secondaire);
+    padding: 20px 0;
+}
+.simple5 h2{
+    font-size: 40px;
+    margin: 20px;
+}
+.simple5 p{
+    margin-bottom: 30px;
+    opacity: .9;
+    font-style: italic;
+}
+.smp6{
+    display: flex;
+    justify-content: space-around;
+}
+
+.smp7 a{
+    text-decoration: none;
+    color: #fff;
+    margin:  20px;
+    opacity: .8;
+}
+.smp7 h4, h4 a{
+    font-size: 25px;
+    color: #fff;
+    text-decoration: none;
+    margin: 20px;
+}
+footer #copyr{
+    text-align: center;
+    padding: 20px;
+    color: var(--couleur-secondaire);
+
 }

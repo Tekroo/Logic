@@ -1,0 +1,68 @@
+:root{
+    --couleur-principale: #009FE2;
+    --couleur-secondaire: #25348B;
+}
+
+span{
+    color: var(--couleur-secondaire);
+}
+
+.service_acceuil{    
+    background:url('photo-00.jpg') center; 
+    background-size: cover;
+    height: 50vh;
+    color: #fff;
+    text-align: start;
+}
+.service_acceuil h1{
+    padding-top: 7%;
+    margin-left: 50px;
+    font-size: 60px;
+    font-style: italic;
+}
+.service_acceuil p{
+    margin-left: 50px;
+    font-size: 20px;
+    opacity: .8;
+    font-style: italic;
+}
+
+/* Main */
+main{
+    margin: 100px auto;
+    width: 80%;
+}
+main a{
+    color: var(--couleur-secondaire);
+    text-decoration: none;
+}
+main span{
+    font-size: 40px;
+    font-weight: bold;
+}
+.text{
+    padding: 20px 5px;
+    border-left: var(--couleur-secondaire) solid 5px;
+    margin: 10px;
+    margin-left: 5px;
+    text-align: justify;
+}
+.picture{
+    margin: 70px 0;
+}
+.picture img{
+    width: 70%;
+    height: 500px;
+}
+.picture_content{
+    display: flex;
+    justify-content: start;
+}
+.picture_content img{
+    width: 150px;
+    height: 100px;
+    margin-right: 80px;
+}
+h3{
+    margin: 40px 0;
+}

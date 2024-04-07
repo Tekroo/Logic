@@ -1,0 +1,55 @@
+:root{
+    --couleur-principale: #009FE2;
+    --couleur-secondaire: #25348B;
+}
+
+span{
+    color: var(--couleur-secondaire);
+}
+.rea_acceuil{    
+    background:url('photo-00.jpg') center; 
+    background-size: cover;
+    height: 50vh;
+    color: #fff;
+    text-align: start;
+}
+.rea_acceuil h1{
+    padding-top: 10%;
+    margin-left: 50px;
+    font-size: 60px;
+    font-style: italic;
+}
+
+/* main */
+main ul{
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+}
+main ul li {
+    font-style: none;
+    list-style: none;
+}
+main ul li a {
+    color: #000;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+    margin: 0 30px;
+}
+.rea_content{
+    display: flex;
+    margin: 70px;
+}
+.rea_content img {
+    width: 50%;
+    height: 300px;
+}
+.texte{
+    width: 40%;
+    text-align: justify;
+    margin: 0 40px;
+}
+.texte h4{
+    margin-bottom: 20px;
+}
