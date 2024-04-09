@@ -8,14 +8,14 @@ span{
 }
 
 .service_acceuil{    
-    background:url('photo-00.jpg') center; 
+    background:linear-gradient(rgba(87, 91, 97, 0.301), rgba(87, 91, 97, 0.301)),url('photo-00.jpg') center;
     background-size: cover;
     height: 50vh;
     color: #fff;
     text-align: start;
 }
 .service_acceuil h1{
-    padding-top: 7%;
+    padding-top: 10%;
     margin-left: 50px;
     font-size: 60px;
     font-style: italic;
@@ -56,7 +56,7 @@ main span{
 }
 .picture_content{
     display: flex;
-    justify-content: start;
+    justify-content: space-between;
 }
 .picture_content img{
     width: 150px;
@@ -65,4 +65,82 @@ main span{
 }
 h3{
     margin: 40px 0;
+}
+
+@media screen and (min-width: 768px) and (max-width: 1024px){
+    .service_acceuil h1{
+        padding-top: 10%;
+    }
+    .service_acceuil p{
+        font-size: 18px;
+    }
+    main span{
+        font-size: 40px;
+        font-weight: bold;
+    }
+    .text{
+        padding: 10px 5px;
+    }
+    .picture{
+        margin: 70px 0;
+    }
+    .picture img{
+        height: 300px;
+    }
+    .picture_content img{
+        margin-right: 20px;
+    }
+    h3{
+        margin: 40px 0;
+    }
+}
+
+@media screen and (max-width: 767px){
+    .service_{
+        height: 200px;
+    }
+    .service_ h1{
+        padding-top: 12%;
+        margin-left: 30px;
+        font-size: 35px;
+    }
+    .service_ p{
+        margin-left: 30px;
+        font-size: 15px;
+    }
+    main{
+        margin: 60px auto;
+        width: 90%;
+    }
+    main span{
+        font-size: 30px;
+        font-weight: bold;
+    }
+    .text{
+        padding: 10px 5px;
+        border-left: var(--couleur-secondaire) solid 3px;
+        margin: 10px;
+        margin-left: 3px;
+        text-align: start;
+    }
+    .picture{
+        margin: 50px 0;
+    }
+    .picture img{
+        width: 80%;
+        height: 250px;
+    }
+    .picture_content{
+        display: flex;
+        justify-content: start;
+        /* overflow: scroll; */
+    }
+    .picture_content img{
+        width: 120px;
+        height: 70px;
+        margin-right: 40px;
+    }
+    h3{
+        margin: 30px 0;
+    }
 }

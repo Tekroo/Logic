@@ -6,12 +6,67 @@
 span{
     color: var(--couleur-secondaire);
 }
-map img{
-    height: 50vh;
+
+.contain{
+    background-color: #40b7ea86;
+    padding: 100px 0;
+    padding-left: 10%;
+    margin: 100px auto;
     width: 100%;
 }
-
-main{
-    background-color: #009FE2;
-    padding-left: 100px;
+.contain h1{
+    color: var(--couleur-secondaire);
+}
+.info{
+    display: flex;
+    margin: 20px;
+}
+.info img{
+    width: 20px;
+    height: 20px;
+    margin-right: 20px;
+}
+.info p{
+    color: var(--couleur-secondaire);
+}
+.info a{
+    color: var(--couleur-secondaire);
+    text-decoration: none;
+}
+form{
+    width: 60%;
+}
+form input{
+    padding: 10px;
+    margin: 15px 0;
+    border-style: none;
+    border-radius: 5px;
+    width: 100%;
+    outline: none;
+}
+#mesg{
+    height: 200px;
+}
+#send{
+    display: inline-block;
+    width: auto;
+    padding: 10px 50px;
+    border-radius: 35px;
+    color: #fff;
+    background-color: var(--couleur-principale);
+}
+@media screen and (max-width: 767px){
+    .contain{
+        padding: 30 0px;
+        margin: 60px 0;
+        width: 90%;
+        font-size: 14px;
+    }
+    .info{
+        display: flex;
+        margin: 20px;
+    }
+    form{
+        width: 80%;
+    }
 }

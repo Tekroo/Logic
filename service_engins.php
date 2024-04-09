@@ -3,9 +3,10 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="icone/L1.ico" type="image/x-icon" id="h_ico">
     <title>Services</title>
     <link rel="stylesheet" href="style/style.css">
-    <link rel="stylesheet" href="style/service.css">
+    <link rel="stylesheet" href="style/service.css"> 
 </head>
 <body>
     <?php
@@ -19,7 +20,7 @@
     <main>
         <p><span>Location d'engins lourds,</span></p>
         <div class="text">
-        Lorem ipsum dolor sit amet consectetur adipisicing elit. Natus enim aspernatur illo maxime nam necessitatibus, soluta nihil quidem animi debitis cumque ullam aliquam assumenda beatae! Quisquam minus dolor magnam ea! Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi architecto voluptate aliquam exercitationem, voluptatibus qui consequuntur inventore repudiandae rerum nihil quia officia mollitia illo voluptas voluptatem incidunt cumque cum ut.
+            Service de mise à disposition temporaire de machines de construction et d'équipements lourds tels que les bulldozers, les excavatrices et les grues, offert aux entreprises du secteur de la construction pour répondre à leurs besoins spécifiques de chantier.
         </div>
         <div class="picture">
             <img src="img/backho.jpg" alt="">
@@ -30,7 +31,7 @@
             <img src="img/pexels.jpg" alt="">
             <img src="img/pexels2.jpg" alt="">
         </div>
-        <h3>Pour plus d'informations, <a href="#contact">Contactez-nous</a></3>
+        <h3>Pour plus d'informations, <a href="contact.php">Contactez-nous</a></3>
     </main>
 
     <?php

@@ -19,31 +19,54 @@ main{
 }
 /* Mon header */
 header{
-    height: 50px;
+    height: 40px;
     display: flex;
     justify-content: space-between;
+    align-items: center;
     padding: 10px;
+}
+#close_icon , #open_icon{
+    display: none;
 }
 header img{
     width: 150px;
     height: 50px;
 }
-menu ul{
+nav ul{
     display: flex;
-    margin-top: 15px;
 }
-menu ul li {
+nav ul li {
     list-style: none;
     font-weight: 500;
 }
-menu ul li a {
+nav ul li a {
     text-decoration: none;
     color:  var(--couleur-principale);
     margin: 10px;
 }
+nav ul ul{
+    display:none;
+    margin:0;
+    position: absolute;
+    background-color: #f9f9f9;
+}
+nav ul ul li a{
+    display: block;
+    margin: 10px 0;
+    padding: 10px;
+}
+nav ul ul li:hover{
+    background-color: #009ee22f;
+    transition-duration: .8s;
+}
+
+
+nav ul li:hover > ul{
+    display: block;
+}
 
 #acceuil{    
-    background:url('photo-00.jpg') center; 
+    background:linear-gradient(rgba(87, 91, 97, 0.301), rgba(87, 91, 97, 0.301)),url('photo-00.jpg') center; 
     background-size: cover;
     height: 60vh;
     color: #fff;
@@ -67,6 +90,7 @@ menu ul li a {
     width: 90%;
     margin: auto;
     margin-top: 10%;
+    align-items: center;
     text-align: justify;
 }
 .simple img{
@@ -77,8 +101,7 @@ menu ul li a {
 }
 .smp{
     width: 50%;
-    margin: auto;
-    margin-top: 0px;
+    margin: 30px;
 }
 .smp h2{
     margin: 20px;
@@ -104,7 +127,7 @@ hr{
     text-align: center;
     padding-bottom: 100px;
 }
-#services h2{
+#services h3{
     font-size: 35px;
     padding: 50px;
 }
@@ -115,12 +138,12 @@ hr{
 .service{
     border-radius: 15px 15px 0 0;
     background-color: #fff;
-    width: 400px;
+    width: 350px;
     margin: auto ;
 }
 .service img{
-    width: 400px;
-    height: 300px;
+    width: 350px;
+    height: 230px;
     border-radius: 15px 15px 0 0;
 }
 .smp2{
@@ -156,21 +179,28 @@ hr{
 
 /* Engagement */
 #engagement{
-    margin: 200px 0 ;
+    margin: 0;
+    width: 100%;
+    background: linear-gradient(rgba(203, 218, 241, 0.7), rgba(203, 218, 241, 0.3)),url('back.jpg') no-repeat;
+    background-size: 60%;
+    padding: 100px 0;
+    background-position-x: 300px;
+    background-position-y: 150px;
 }
 .simple2{
     display: flex;
     width: 70%;
     margin: 100px auto;
     justify-content:space-around;
+    align-items: center;
 }
 .simple2 img{
-    width: 400px;
-    height: 350px;
+    width: 350px;
+    height: 300px;
     border-radius: 10px;
 }
 .smp3{
-    margin: 30px;
+    margin-left: 50px;
     text-align: justify;
 }
 .smp3 h3{
@@ -179,9 +209,11 @@ hr{
     margin: 0 0  30px 20px;
 }
 .smp3 p{
-    background-color: #D3E8F5;
+    background-color: #a4d8f87e;
     border-radius: 10px;
     padding: 20px;
+    color: #25348B;
+    font-size: 20px;
 }
 
 /* Réalisations */
@@ -196,7 +228,7 @@ hr{
 .simple3{
     margin: auto;
     padding: 100px 0;
-    background-color: #D3E8F5;
+    background-color: #d3e8f5ee;
     border-radius: 25% 0;
 }
 .project{
@@ -229,15 +261,20 @@ hr{
     margin: 30px;
 }
 .simple4{
-    background: url('partenaire.jpeg') center; 
-    padding: 150px 0;
+    background:linear-gradient(rgba(145, 143, 143, 0.8), rgba(161, 160, 160, 0.8)), url('partenaire.jpeg') center; 
+    padding: 120px 0; 
 }
 .simple4 img{
-    width: 150px;
+    width: 130px;
     height: 100px;
     margin: 0 40px;
 }
-
+.smp6_1{
+    display: flex;
+    justify-content: space-around;
+    background-color: #009ee28f;
+    padding: 20px;
+}
 footer{
     color: #fff;
     text-align: center;
@@ -274,7 +311,499 @@ footer{
 }
 footer #copyr{
     text-align: center;
-    padding: 20px;
+    padding: 10px;
     color: var(--couleur-secondaire);
+}
 
+
+@media screen and (min-width: 768px) and (max-width: 1024px){ 
+#menu_icon{
+    display: none;
+}
+nav ul{
+    display: flex;
+    margin-top: 15px;
+}
+nav ul li {
+    margin: 0 10px;
+}
+nav ul li a {
+    margin: 0px;
+}
+nav ul ul{
+    display:none;
+    margin:0;
+    padding: 10px 0;
+}
+nav ul ul li{
+    display: block;
+    margin: 0;
+    padding:10px 20px;
+}
+nav ul ul li:hover{
+    background-color: #009ee22f;
+    transition-duration: .8s;
+}
+nav ul li:hover > ul{
+    display: block;
+}
+#acceuil h1{
+    font-size: 60px;
+}
+#acceuil p{
+    font-size: 25px;
+}
+.simple img{
+    width: 300px;
+    height: 270px;
+    border-radius: 10px;
+}
+.smp{
+    width: 50%;
+    margin: auto;
+    margin-top: 0px;
+}
+.smp h2{
+    font-size: 25px;
+}
+
+
+.simple1{
+    width: auto;
+    margin: 0;
+}
+#services{
+    background-color: #D3E8F5;
+    margin-top: 100px;
+    text-align: center;
+    padding-bottom: 100px;
+}
+#services h3{
+    font-size: 25px;
+    padding: 25px;
+}
+
+.smp1{
+    display: flex;
+}
+.service{
+    width:300px;
+    margin: auto;
+}
+.service img{
+    width: 300px;
+    height: 200px;
+}
+.smp2{
+    margin-top: 7%;
+    display: flex;
+    justify-content: space-between;
+}
+.service1{
+    width: 250px;
+    margin: auto;
+}
+.service1 img{
+    width: 250px;
+    height: 200px;
+}
+#services h4{
+    font-weight: normal;
+    margin-top: 10px;
+}
+#services a{
+    display: inline-block;
+    text-decoration: none;
+    color: #fff;
+    background-color: var(--couleur-principale);
+    padding: 10px;
+    border-radius: 34px;
+    margin-top: 20px;
+    margin-bottom:15px ;
+}
+
+
+
+#engagement{
+    margin: 40px 0 ;
+    width: auto;
+    background: linear-gradient(rgba(203, 218, 241, 0.7), rgba(203, 218, 241, 0.3)),url('back.jpg') no-repeat;
+    background-size: 100%;
+    padding: 100px 0;
+    background-position-x: 30px;
+    background-position-y: 150px;
+}
+.simple2{
+    display: flex;
+    width: 90%;
+    margin: 100px auto;
+    justify-content:space-around;
+}
+.simple2 img{
+    margin: auto;
+    width: 350px;
+    height: 300px;
+    border-radius: 10px;
+}
+.smp3{
+    margin-left: 50px;
+    text-align: justify;
+}
+.smp3 h3{
+    color: var(--couleur-secondaire);
+    font-size: 25px;
+    margin: 0 0  30px 0px;
+}
+.smp3 p{
+    background-color: #a4d8f87e;
+    border-radius: 10px;
+    padding: 20px;
+    color: #25348B;
+    font-size: auto;
+}
+
+
+#realisation{
+    margin: 0px;
+}
+#realisation h3{
+    font-size: 30px;
+    margin: 20px;
+}
+.simple3{
+    margin: auto;
+    padding: 60px 0;
+    border-radius: 18% 0;
+}
+.project{
+    margin: 20px;
+}
+.project img{
+    width: 250px;
+    height: 200px;
+}
+.project a{
+    padding: 15px;
+    border-radius: 5px;
+}
+
+
+#partenaires{
+    text-align: center;
+    margin: 130px 0;
+}
+#partenaires h3{
+    font-size: 30px;
+    margin: 30px;
+}
+.simple4{
+    padding: 100px 0; 
+}
+.simple4 img{
+    width: 100px;
+    height: 70px;
+    margin: 0 30px;
+}
+.smp6_1{
+    padding: 25px;
+}
+footer{
+    color: #fff;
+    text-align: center;
+}
+.simple5{
+    padding: 20px 0;
+}
+.simple5 h2{
+    font-size: 35px;
+    margin: 15px;
+}
+.simple5 p{
+    margin-bottom: 30px;
+    opacity: .9;
+    font-style: italic;
+}
+.smp6{
+    display: flex;
+    justify-content: space-between;
+}
+
+.smp7 a{
+    text-decoration: none;
+    color: #fff;
+    margin:  20px;
+    opacity: .8;
+}
+}
+
+
+@media screen and (max-width: 767px){
+    main{
+        width: 100%;
+        margin: auto;
+    }
+    /* Mon header */
+    header{
+        height: 40px;
+        display: flex;
+        align-items:flex-start;
+        padding: 0px;
+        margin: auto;
+    }
+    #open_icon{
+        display: block;
+        position: absolute;
+        right: 0;
+        width: 50px;
+        cursor: pointer;
+    }
+    #close_icon{
+        display: none;
+        position: absolute;
+        right: 0;
+        width: 50px;
+        cursor: pointer;
+    }
+    #close_icon:hover{
+        background-color: #009ee27a;
+        border-radius: 50%;
+    }
+    header img{
+        width: 100px;
+        height: 40px;
+    }
+    nav{
+        display: none;
+    }
+    nav ul{
+        display:block;
+        position:relative;
+        margin-top: 40px;
+        background-color: var(--couleur-secondaire);
+    }
+    nav ul li {
+        list-style: none;
+        font-weight: 500;
+        margin: 20px 0px;
+    }
+    nav ul li a {
+        display: block;
+        text-decoration: none;
+        color:  #fff;
+        margin: 0px;
+        padding: 10px 80px;
+        background-color: #009ee244;
+    }
+    nav ul ul{
+        display:none;
+        margin:0;
+        position: static ;
+        background-color: #f9f9f9;
+        padding: 0px 0;
+    }
+    nav ul ul li{
+        display: block;
+        margin: 0px 0;
+        padding: 0px;
+    }
+    nav ul ul li a{
+        display: block;
+        text-decoration: none;
+        color:  var(--couleur-principale);
+        margin: 5px;
+        padding: 5px 10px;
+        background-color: #f9f9f923;
+    }
+    nav ul ul li:hover{
+        background-color: #009ee22f;
+        transition-duration: .8s;
+    }
+    
+    
+    nav ul li:hover > ul{
+        display: block;
+    }
+    
+    #acceuil{
+        height: 200px;
+    }
+    #acceuil h1{
+        padding-top: 10%;
+        font-size: 40px;
+    }
+    #acceuil p{
+        display: none;
+        font-size: 17px;
+    }
+    
+    /* Main */
+    
+    .simple{
+        display:flex;
+        width: 100%;
+        margin-top: 10%;
+        text-align: justify;
+    }
+    .simple img{
+        width: 200px;
+        height: 150px;
+        border: var(--couleur-principale) solid 2px;
+        border-radius: 10px;
+        margin: 10px;
+    }
+    .smp h2{
+        margin: 20px;
+        margin-left: 0px;
+        font-size: 20px;
+        text-align: start;
+    }    
+    /* Services */
+    .simple1{
+        width: 90%;
+        margin: auto;
+    }
+    #services{
+        background-color: #D3E8F5;
+        margin-top: 100px;
+        padding-bottom: 50px;
+    }
+    #services h3{
+        font-size: 25px;
+        padding: 30px;
+        padding-bottom: 10px;
+    }
+    
+    .smp1{
+        display: block;
+    }
+    .service{
+        width: 350px;
+        margin: 30px auto;
+    }
+    .service img{
+        width: 350px;
+        height: 230px;
+    }
+    .smp2{
+        display: block;
+    }
+    .service1{
+        width: 350px;
+        margin: 30px auto;
+    }
+    .service1 img{
+        width: 350px;
+        height: 230px;
+    }
+    #services h4{
+        font-weight: normal;
+        margin-top: 10px;
+    }
+    
+    /* Engagement */
+    #engagement{
+        margin: 50px 0 ;
+        width: 100%;
+        background: linear-gradient(rgba(203, 218, 241, 0.7), rgba(203, 218, 241, 0.473)),url('back.jpg') no-repeat;
+        background-size: 100%;
+        padding: 40px 0;
+        background-position-x: 0px;
+        background-position-y: 80px;
+    }
+    .simple2{
+        display: flex;
+        width: 90%;
+        margin: 50px auto;
+        justify-content:space-around;
+    }
+    .simple2 img{
+        width: 35%;
+        height: 130px;
+        margin: auto;
+    }
+    .smp3{
+        margin-left: 20px;
+        text-align: justify;
+    }
+    .smp3 h3{
+        font-size: 25px;
+        margin: 0 0  20px 0px;
+    }
+    .smp3 p{
+        border-radius: 5px;
+        padding: 10px;
+        font-size: 15px;
+    }
+    
+    /* Réalisations */
+    #realisation{
+        margin: 50px auto;
+        text-align: center;
+    }
+    #realisation h3{
+        font-size: 25px;
+        margin: 20px;
+    }
+    .simple3{
+        margin: auto;
+        padding: 30px 0;
+        background-color: #d3e8f5ee;
+        border-radius: 100px 0;
+    }
+    .project{
+        margin-bottom: 50px;
+    }
+    .project img{
+        width: 400px;
+        height: 250px;
+        border-radius: 5px;
+    }
+    .smp4 ,.smp5 {
+        display: block;
+    }
+    
+    /* Nos partenaires */
+    #partenaires{
+        text-align: center;
+        margin: 200px 0;
+    }
+    #partenaires h3{
+        font-size: 25px;
+        margin: 20px;
+    }
+    .simple4{
+        background:linear-gradient(rgba(145, 143, 143, 0.8), rgba(161, 160, 160, 0.8)), url('partenaire.jpeg') center; 
+        padding: 80px 0; 
+    }
+    .simple4 img{
+        width: 60px;
+        height: 50px;
+        margin: 0 10px;
+    }
+    .smp6_1{
+        display: flex;
+        justify-content: space-around;
+        background-color: #009ee28f;
+        padding: 20px;
+    }
+
+    /* Footer */
+    .simple5{
+        background-color: var(--couleur-secondaire);
+        padding: 10px 0;
+    }
+    .simple5 h2{
+        font-size: 30px;
+        margin: 15px;
+    }
+    .simple5 p{
+        margin-bottom: 15px;
+        opacity: .9;
+        font-style: italic;
+        font-size: 15px;
+    }
+    .smp6{
+        display: block;
+        justify-content: space-around;
+    }
 }
