@@ -1,0 +1,26 @@
+:root{
+    --couleur-principale: #009FE2;
+    --couleur-secondaire: #25348B;
+}
+
+span{
+    color: var(--couleur-secondaire);
+}
+
+.propos_accueil{    
+    background:linear-gradient(rgba(87, 91, 97, 0.425), rgba(87, 91, 97, 0.425)),url('photo-00.jpg') center;
+    background-size: cover;
+    height: 37vh;
+    color: #fff;
+    text-align: center;
+}
+.propos_accueil h1{
+    padding-top: 5%;
+    font-size: 60px;
+    font-style: italic;
+}
+.propos_accueil p{
+    font-size: 15px;
+    opacity: .8;
+    font-style: italic;
+}
