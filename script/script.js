@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 // Récupérer les éléments du menu
 const openicon = document.getElementById("open_icon");
 const closeicon = document.getElementById("close_icon");
@@ -22,3 +23,14 @@ closeMenu.addEventListener("click", () => {
 });
 
 console.log(opencon); // Affiche l'élément "open_con" dans la console
+=======
+// Sous menu
+function showSubmenu(){
+    let submenu = document.getElementById("submenu");
+    submenu.classList.add("active");
+}
+function hideSubmenu(){
+    let submenu = document.getElementById("submenu");
+    submenu.classList.remove("active");
+}
+>>>>>>> 538143584791f17c9a9c13c7beaaef70a2937396

@@ -6,13 +6,9 @@
     <link rel="icon" href="icone/L1.ico" type="image/x-icon" id="h_ico">
     <title>Logic</title>
     <link rel="stylesheet" href="style/style.css">
-<<<<<<<< HEAD:index.html
-    <script src="script/script.js" defer></script>
-========
     <script src="script/script.js"></script>
->>>>>>>> 538143584791f17c9a9c13c7beaaef70a2937396:index.php
 </head>
-<body> 
+<body>
     <header>
         <a href="uno_acceuil.php"><img src="img/Logic.png" alt="logo_de_logic"></a>
         <nav>
@@ -33,12 +29,7 @@
                 <li><a href="contact.php">Contact</a></li>  
             </ul>
         </nav> 
-<<<<<<<< HEAD:index.html
-        <img src="img/Menu_icon_2_icon-icons.com_71856.png" id="open_icon">
-        <img src="img/4115230-cancel-close-cross-delete_114048.png" id="close_icon">
-========
         <img src="img/Menu_icon_2_icon-icons.com_71856.png" alt="" id="menu_icon">
->>>>>>>> 538143584791f17c9a9c13c7beaaef70a2937396:index.php
     </header> 
     <div id="acceuil">
         <h1>L'art de bâtir</h1>
@@ -149,7 +140,7 @@
     <footer>
         <div class="simple5">
             <h2>LOGIC</h2>
-            <p>Construisons un monde solide et durable</p>
+            <p>Notre engagement, votre réussite</p>
             <div class="smp6">
                 <div class="smp7">
                     <h4>Suivez-nous</h4>

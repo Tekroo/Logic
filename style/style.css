@@ -25,7 +25,11 @@ header{
     align-items: center;
     padding: 10px;
 }
+<<<<<<< HEAD
 #close_icon , #open_icon{
+=======
+#menu_icon{
+>>>>>>> 538143584791f17c9a9c13c7beaaef70a2937396
     display: none;
 }
 header img{
@@ -538,6 +542,13 @@ footer{
 
 
 @media screen and (max-width: 767px){
+<<<<<<< HEAD
+=======
+    #menu_icon{
+        display: block;
+        width: 50px;
+    }
+>>>>>>> 538143584791f17c9a9c13c7beaaef70a2937396
     main{
         width: 100%;
         margin: auto;
@@ -546,6 +557,7 @@ footer{
     header{
         height: 40px;
         display: flex;
+<<<<<<< HEAD
         align-items:flex-start;
         padding: 0px;
         margin: auto;
@@ -567,11 +579,19 @@ footer{
     #close_icon:hover{
         background-color: #009ee27a;
         border-radius: 50%;
+=======
+        justify-content: space-between;
+        padding: 5px;
+    }
+    #menu_icon{
+        /* display: none; */
+>>>>>>> 538143584791f17c9a9c13c7beaaef70a2937396
     }
     header img{
         width: 100px;
         height: 40px;
     }
+<<<<<<< HEAD
     nav{
         display: none;
     }
@@ -580,10 +600,15 @@ footer{
         position:relative;
         margin-top: 40px;
         background-color: var(--couleur-secondaire);
+=======
+    nav ul{
+        display: none;
+>>>>>>> 538143584791f17c9a9c13c7beaaef70a2937396
     }
     nav ul li {
         list-style: none;
         font-weight: 500;
+<<<<<<< HEAD
         margin: 20px 0px;
     }
     nav ul li a {
@@ -593,10 +618,19 @@ footer{
         margin: 0px;
         padding: 10px 80px;
         background-color: #009ee244;
+=======
+        margin: 0 20px;
+    }
+    nav ul li a {
+        text-decoration: none;
+        color:  var(--couleur-principale);
+        margin: 10px;
+>>>>>>> 538143584791f17c9a9c13c7beaaef70a2937396
     }
     nav ul ul{
         display:none;
         margin:0;
+<<<<<<< HEAD
         position: static ;
         background-color: #f9f9f9;
         padding: 0px 0;
@@ -613,6 +647,16 @@ footer{
         margin: 5px;
         padding: 5px 10px;
         background-color: #f9f9f923;
+=======
+        position: absolute;
+        background-color: #f9f9f9;
+        padding: 10px 0;
+    }
+    nav ul ul li{
+        display: block;
+        margin: 10px 0;
+        padding: 10px;
+>>>>>>> 538143584791f17c9a9c13c7beaaef70a2937396
     }
     nav ul ul li:hover{
         background-color: #009ee22f;
@@ -628,12 +672,21 @@ footer{
         height: 200px;
     }
     #acceuil h1{
+<<<<<<< HEAD
         padding-top: 10%;
         font-size: 40px;
     }
     #acceuil p{
         display: none;
         font-size: 17px;
+=======
+        padding-top: 15%;
+        font-size: 50px;
+    }
+    #acceuil p{
+        font-size: 18px;
+        opacity: .8;
+>>>>>>> 538143584791f17c9a9c13c7beaaef70a2937396
     }
     
     /* Main */

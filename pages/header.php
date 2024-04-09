@@ -17,6 +17,5 @@
                 <li><a href="#a_propos">À propos</a></li>
                 <li><a href="contact.php">Contact</a></li>  
             </ul>
-        </nav>
-        <img src="img/Menu_icon_2_icon-icons.com_71856.png" alt="" id="menu_icon">
-</header> 
+        </menu>
+</header>
