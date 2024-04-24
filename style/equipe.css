@@ -5,6 +5,7 @@
 
 span{
     color: var(--couleur-secondaire);
+    font-weight: bold;
 }
 #equi_main{
     margin: 100px 0px ;
@@ -27,7 +28,7 @@ span{
     display: flex;
     width: 80%;
     margin: auto;
-    font-size: 20px;
+    font-size: 16px;
     text-align: justify;
 }
 .dg img{
@@ -47,7 +48,7 @@ span{
 }
 .team_content{
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
     margin: 50px 0;
 }
 .member{

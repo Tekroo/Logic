@@ -1,16 +1,17 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="fr">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Logic - Entreprise de construction spécialisée dans le bâtiment, les travaux publics, la vente de béton, et plus encore.">
     <link rel="icon" href="icone/L1.ico" type="image/x-icon" id="h_ico">
-    <title>Logic</title>
+    <title>Logic - Bâtisseurs d'avenir</title>
     <link rel="stylesheet" href="style/style.css">
-    <script src="script/script.js"></script>
+    <script src="script/script.js" defer></script>
 </head>
-<body>
+<body> 
     <header>
-        <a href="uno_acceuil.php"><img src="img/Logic.png" alt="logo_de_logic"></a>
+        <a href="index.php"><img src="img/Logic.png" alt="logo de logic"></a>
         <nav>
             <ul>
                 <li><a href="#acceuil">Accueil</a></li>
@@ -25,12 +26,14 @@
                 </li>
                 <li><a href="realisation.php">Nos réalisations</a></li>
                 <li><a href="equipe.php">Notre équipe</a></li>
-                <li><a href="#a_propos">À propos</a></li>
+                <li><a href="a_propos.php">À propos</a></li>
                 <li><a href="contact.php">Contact</a></li>  
             </ul>
         </nav> 
-        <img src="img/Menu_icon_2_icon-icons.com_71856.png" alt="" id="menu_icon">
+        <img src="img/Menu_icon_2_icon-icons.com_71856.png" id="open_icon">
+        <img src="img/4115230-cancel-close-cross-delete_114048.png" id="close_icon">
     </header> 
+
     <div id="acceuil">
         <h1>L'art de bâtir</h1>
         <p>Construisons un monde solide et durable</p>
@@ -40,7 +43,7 @@
         <div class="simple">
             <div class="smp">
                 <h2>Bienvenu chez Logic - Votre partenaire de confiance dans le BTP </h2><hr>
-                Chez<span>Logic</span> , nous sommes bien plus qu'une entreprise de construction, nous sommes des bâtisseurs d'avenir. Depuis notre premier coup de pelle, notre engagement envers l'excellence a été le moteur de chaque projet que nous entreprenons. Notre histoire est façonnée par des réussites, des défis relevés et des partenariats solides.
+                Chez <span>Logic</span> , nous sommes bien plus qu'une entreprise de construction, nous sommes des bâtisseurs d'avenir. Depuis notre premier coup de pelle, notre engagement envers l'excellence a été le moteur de chaque projet que nous entreprenons. Notre histoire est façonnée par des réussites, des défis relevés et des partenariats solides.
             </div>
             <img src="img/divindus-btp.jpg" alt="">
         </div>
@@ -55,7 +58,7 @@
                         <a href="service_batiment.php">En savoir plus</a>
                     </div>
                     <div class="service">
-                        <img src="img/AM.jpg" alt="">
+                        <img src="img/Rothau.jpg" alt="">
                         <h4>Assainissement et Aménagement des pistes</h4>
                         <a href="service_amenage.php">En savoir plus</a>
                     </div>
@@ -82,11 +85,13 @@
 
         <div id="engagement">
             <div class="simple2">
-                <img src="img/CAP-Batiment.jpeg" alt="">
+                <img src="img/accueilimg.jpeg" alt="">
                 <div class="smp3">
                     <h3>Nos engagements</h3>
                     <p>
-                        Lorem ipsum dolor sit, amet consectetur adipisicing elit. Tenetur quasi sapiente laudantium perferendis iusto commodi. Blanditiis sequi tempore alias sit molestiae commodi officia quibusdam eos numquam neque, similique nesciunt repellat. Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit error repellat. <br><br> Lorem, ipsum dolor sit amet consectetur adipisicing elit. Animi, possimus? Possimus ducimus commodi facilis modi quos quaerat dignissimos quis quidem? Ipsa dicta ut provident facilis quibusdam quasi cupiditate hic molestias. Lorem ipsum dolor sit.
+                        <span>Logic </span>se distingue par un engagement inébranlable envers l'excellence et l'intégrité. En tant que pilier de notre communauté, nous nous engageons à fournir des solutions de construction de la plus haute qualité, répondant aux normes les plus strictes de sécurité et de durabilité. Notre équipe dévouée, composée d'experts chevronnés, travaille sans relâche pour réaliser chaque projet avec précision et fiabilité. <br>
+                        Nous somme également profondément investis dans la responsabilité sociale en cherchant activement à contribuer positivement à nos communautés locale et minimiser notre empreinte environnementale.
+                        
                     </p>
                 </div>
             </div>
@@ -98,11 +103,11 @@
                 <div class="smp4">
                     <div class="project">
                         <img src="img/p1.jpeg" alt=""><br>
-                        <a href="#project1">Project Name</a>
+                        <a href="realisation.php">Project Name</a>
                     </div>
                     <div class="project">
                         <img src="img/p2.jpg" alt=""><br>
-                        <a href="#project1">Project Name</a>
+                        <a href="realisa">Project Name</a>
                     </div>
                     <div class="project">
                         <img src="img/p3.jpg" alt=""><br>
@@ -140,7 +145,7 @@
     <footer>
         <div class="simple5">
             <h2>LOGIC</h2>
-            <p>Notre engagement, votre réussite</p>
+            <p>Construisons un monde solide et durable</p>
             <div class="smp6">
                 <div class="smp7">
                     <h4>Suivez-nous</h4>
@@ -158,9 +163,9 @@
                 <div class="smp7">
                     <h4>Liens utiles</h4>
                     <a href="#services">Nos services</a><br>
-                    <a href="#realisatons"> Nos réalisations</a><br>
-                    <a href="#equipe">Notre équipe</a><br>
-                    <a href="#a_propos">À propos</a><br>   
+                    <a href="realisaton.php"> Nos réalisations</a><br>
+                    <a href="equipe.php">Notre équipe</a><br>
+                    <a href="a_propos.php">À propos</a><br>   
                 </div>
             </div>
         </div>

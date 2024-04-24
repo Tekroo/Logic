@@ -53,6 +53,7 @@ main ul li a {
 .texte h4{
     margin-bottom: 20px;
 }
+
 @media screen and (min-width: 768px) and (max-width: 935px){
     .rea_acceuil{
         height: 270px;

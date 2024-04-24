@@ -1,12 +1,7 @@
-<<<<<<< HEAD
 // Récupérer les éléments du menu
-const openicon = document.getElementById("open_icon");
-const closeicon = document.getElementById("close_icon");
+const openMenu = document.getElementById("open_icon");
+const closeMenu = document.getElementById("close_icon");
 const nav_menu = document.querySelector("nav");
-
-// Définir les variables pour les écouteurs d'événements
-const openMenu = openicon;
-const closeMenu = closeicon;
 
 // Ajouter un écouteur d'événement pour ouvrir le menu
 openMenu.addEventListener("click", () => {
@@ -21,16 +16,3 @@ closeMenu.addEventListener("click", () => {
   openMenu.style.display = "block";
   closeMenu.style.display = "none";
 });
-
-console.log(opencon); // Affiche l'élément "open_con" dans la console
-=======
-// Sous menu
-function showSubmenu(){
-    let submenu = document.getElementById("submenu");
-    submenu.classList.add("active");
-}
-function hideSubmenu(){
-    let submenu = document.getElementById("submenu");
-    submenu.classList.remove("active");
-}
->>>>>>> 538143584791f17c9a9c13c7beaaef70a2937396

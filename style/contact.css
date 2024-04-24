@@ -12,11 +12,11 @@ span{
     padding: 100px 0;
     padding-left: 10%;
     margin: 100px auto;
-    width: 100%;
+    width: 90%;
 }
 .contain h1{
     color: var(--couleur-secondaire);
-}
+} 
 .info{
     display: flex;
     margin: 20px;
@@ -54,6 +54,7 @@ form input{
     border-radius: 35px;
     color: #fff;
     background-color: var(--couleur-principale);
+    cursor: pointer;
 }
 @media screen and (max-width: 767px){
     .contain{

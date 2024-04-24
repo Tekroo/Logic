@@ -3,8 +3,9 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Logic - Entreprise de construction spécialisée dans le bâtiment, les travaux publics, la vente de béton, et plus encore.">
     <link rel="icon" href="icone/L1.ico" type="image/x-icon" id="h_ico">
-    <title>Contact</title>
+    <title>Logic - Contact</title>
     <link rel="stylesheet" href="style/contact.css">
     <link rel="stylesheet" href="style/style.css">
 </head>
@@ -32,7 +33,7 @@
                 <img src="icone/phone-handset_icon-icons.com_48252.ico" alt="phone_icon">
                 <p><a href="tel:+229 21322151">21322151</a> / <a href="tel:95819769">95819769</a></p>
             </div>
-            <form action="#">
+            <form action="sendmail.php" method="POST">
                 <input type="text" name="name" id="name" placeholder="Nom et prénom"><br>
                 <input type="email" name="mail" id="mail" placeholder="Adresse mail"><br>
                 <input type="text" name="mesg" id="mesg" placeholder="Votre message"><br>

@@ -18,10 +18,10 @@
                 </div>
                 <div class="smp7">
                     <h4>Liens utiles</h4>
-                    <a href="#service">Nos services</a><br>
-                    <a href="#realisaton"> Nos réalisations</a><br>
+                    <a href="service.php">Nos services</a><br>
+                    <a href="realisaton.php"> Nos réalisations</a><br>
                     <a href="equipe.php">Notre équipe</a><br>
-                    <a href="#a_propos">À propos</a><br>   
+                    <a href="a_propos.php">À propos</a><br>   
                 </div>
             </div>
         </div>
