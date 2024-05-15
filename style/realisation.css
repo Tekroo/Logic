@@ -7,7 +7,7 @@ span{
     color: var(--couleur-secondaire);
 }
 .rea_acceuil{    
-    background:linear-gradient(rgba(87, 91, 97, 0.301), rgba(87, 91, 97, 0.301)),url('photo-00.jpg') center; 
+    background:linear-gradient(rgba(87, 91, 97, 0.425), rgba(87, 91, 97, 0)),url('photo-00.jpg') center; 
     background-size: cover;
     height: 50vh;
     color: #fff;

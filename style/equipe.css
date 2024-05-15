@@ -12,7 +12,7 @@ span{
     width: auto;
 }
 .equi_acceuil{    
-    background:linear-gradient(rgba(87, 91, 97, 0.301), rgba(87, 91, 97, 0.301)),url('photo-00.jpg') center; 
+    background:linear-gradient(rgba(87, 91, 97, 0.425), rgba(87, 91, 97, 0)),url('photo-00.jpg') center; 
     background-size: cover;
     height: 50vh;
     color: #fff;
@@ -34,7 +34,7 @@ span{
 .dg img{
     margin: 30px;
     width: 400px;
-    height: 400px;
+    height: 350px;
 }
 .text{
     margin: 30px;
@@ -48,7 +48,7 @@ span{
 }
 .team_content{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     margin: 50px 0;
 }
 .member{
@@ -61,7 +61,8 @@ span{
 .member ul li{
     list-style: none;
     margin: 10px;
-    border: var(--couleur-secondaire) 2px solid;padding: 3px;
+    border: #25348b8f 2px solid;
+    padding: 3px;
     border-radius: 50%;
 }
 .member ul li img{

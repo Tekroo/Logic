@@ -1,7 +1,9 @@
 *{
     margin: 0;
     padding: 0;
-    font-family: Montserrat,Arial, Helvetica, Roboto, sans-serif;
+    font-family: "Poppins", sans-serif;
+    font-weight: 450;
+    font-style: normal;
 }
 
 :root{
@@ -70,7 +72,7 @@ nav ul li:hover > ul{
 }
 
 #acceuil{    
-    background:linear-gradient(rgba(87, 91, 97, 0.301), rgba(87, 91, 97, 0.301)),url('photo-00.jpg') center; 
+    background:linear-gradient(rgba(87, 91, 97, 0.425), rgba(87, 91, 97, 0)),url('photo-00.jpg') center; 
     background-size: cover;
     height: 60vh;
     color: #fff;
@@ -91,30 +93,32 @@ nav ul li:hover > ul{
 
 .simple{
     display: flex;
-    width: 90%;
+    width: 95%;
     margin: auto;
     margin-top: 10%;
     align-items: center;
     text-align: justify;
 }
 .simple img{
-    width: 400px;
+    width: 450px;
     height: 350px;
-    border: var(--couleur-principale) solid 2px;
-    border-radius: 10px;
+    border: var(--couleur-principale) solid 4px;
+    border-radius: 15px;
 }
 .smp{
     width: 50%;
     margin: 30px;
+    font-size: large;
 }
 .smp h2{
-    margin: 20px;
+    font-size: 35px;
+    margin: 10px 0px;
     margin-left: 0px;
     color: var(--couleur-principale);
 }
 hr{
     width: 50%;
-    height: 3px;
+    height: 5px;
     margin-bottom: 30px;
     background-color: var(--couleur-principale);
     border: none;
@@ -130,6 +134,7 @@ hr{
     margin-top: 100px;
     text-align: center;
     padding-bottom: 100px;
+    border-radius: 30px;
 }
 #services h3{
     font-size: 35px;
@@ -193,14 +198,14 @@ hr{
 }
 .simple2{
     display: flex;
-    width: 70%;
+    width: 75%;
     margin: 100px auto;
     justify-content:space-around;
     align-items: center;
 }
 .simple2 img{
-    width: 350px;
-    height: 300px;
+    width: 400px;
+    height: 400px;
     border-radius: 10px;
 }
 .smp3{
@@ -594,7 +599,7 @@ footer{
         text-decoration: none;
         color:  #fff;
         margin: 0px;
-        padding: 10px 80px;
+        padding: 0px 80px;
     }
     nav ul ul{
         display:none;
@@ -640,18 +645,28 @@ footer{
         display:flex;
         width: 100%;
         margin-top: 10%;
-        text-align: justify;
+        text-align: start;
+        align-items: start;
+    }
+    .smp p{
+        width: 90%;
+        position: absolute;
+    }
+    .smp{
+        width: 90%;
+        margin: 30px;
+        font-size: large;
     }
     .simple img{
         width: 200px;
         height: 150px;
         border: var(--couleur-principale) solid 2px;
         border-radius: 10px;
-        margin: 10px;
+        margin-top: 40px;
+        margin-right: 20px;
     }
     .smp h2{
-        margin: 20px;
-        margin-left: 0px;
+        margin-bottom: 20px;
         font-size: 20px;
         text-align: start;
     }    
@@ -662,7 +677,7 @@ footer{
     }
     #services{
         background-color: #D3E8F5;
-        margin-top: 100px;
+        margin-top: 300px;
         padding-bottom: 50px;
     }
     #services h3{

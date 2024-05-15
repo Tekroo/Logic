@@ -7,6 +7,9 @@
     <link rel="icon" href="icone/L1.ico" type="image/x-icon" id="h_ico">
     <title>Logic - Bâtisseurs d'avenir</title>
     <link rel="stylesheet" href="style/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <script src="script/script.js" defer></script>
 </head>
 <body> 
@@ -43,11 +46,12 @@
         <div class="simple">
             <div class="smp">
                 <h2>Bienvenu chez Logic - Votre partenaire de confiance dans le BTP </h2><hr>
-                Chez <span>Logic</span> , nous sommes bien plus qu'une entreprise de construction, nous sommes des bâtisseurs d'avenir. Depuis notre premier coup de pelle, notre engagement envers l'excellence a été le moteur de chaque projet que nous entreprenons. Notre histoire est façonnée par des réussites, des défis relevés et des partenariats solides.
+                <p>
+                    Chez <span>Logic</span> , nous sommes bien plus qu'une entreprise de construction, nous sommes des bâtisseurs d'avenir. Depuis notre premier coup de pelle, notre engagement envers l'excellence a été le moteur de chaque projet que nous entreprenons. Notre histoire est façonnée par des réussites, des défis relevés et des partenariats solides.
+                </p>
             </div>
             <img src="img/divindus-btp.jpg" alt="">
         </div>
-
         <div id="services">
             <h3>Nous fournissons les <span>meilleurs <br>services</span> de construction</h3>
             <div class="simple1">
@@ -85,7 +89,7 @@
 
         <div id="engagement">
             <div class="simple2">
-                <img src="img/accueilimg.jpeg" alt="">
+                <img src="img/accueilimg.png" alt="">
                 <div class="smp3">
                     <h3>Nos engagements</h3>
                     <p>
