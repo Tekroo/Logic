@@ -12,6 +12,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <script src="script/service.js"></script>
+    <script src="script/script.js" defer></script>
 </head>
 <body>  
     <?php
@@ -32,10 +33,10 @@
             <img src="img/Rothau.jpg" alt="">
         </div>
         <div class="picture_content">
-            <img src="img/Le Gard.jpg" alt="" class="pic_float">
+            <img src="img/amenage2.jpg" alt="" class="pic_float">
             <img src="img/route.jpeg" alt="" class="pic_float">
             <img src="img/pathway-244494_1920.jpg" alt="" class="pic_float">
-            <img src="img/Eco-quartier Ginko.jpg" alt="" class="pic_float">
+            <img src="img/amenage1.jpg" alt="" class="pic_float">
         </div>
         <h3>Pour plus d'informations, <a href="contact.php">Contactez-nous</a></3>
     </main>

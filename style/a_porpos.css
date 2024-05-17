@@ -11,7 +11,7 @@ span{
 .propos_accueil{    
     background:linear-gradient(rgba(87, 91, 97, 0.425), rgba(87, 91, 97, 0)),url('photo-00.jpg') center; 
     background-size: cover;
-    height: 37vh;
+    height: 45vh;
     color: #fff;
     text-align: center;
 }
@@ -21,6 +21,7 @@ span{
     font-style: italic;
 }
 .propos_accueil p{
+    display: inline-block;
     font-size: 15px;
     opacity: .8;
     font-style: italic;

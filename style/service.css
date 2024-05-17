@@ -6,7 +6,6 @@
 span{
     color: var(--couleur-secondaire);
 }
-
 .service_acceuil{    
     background:linear-gradient(rgba(87, 91, 97, 0.425), rgba(87, 91, 97, 0)),url('photo-00.jpg') center; 
     background-size: cover;
@@ -16,11 +15,12 @@ span{
 }
 .service_acceuil h1{
     padding-top: 10%;
-    margin-left: 50px;
+    margin-left: 50px; 
     font-size: 60px;
     font-style: italic;
 }
 .service_acceuil p{
+    display: inline;
     margin-left: 50px;
     font-size: 20px;
     opacity: .8;
@@ -121,15 +121,15 @@ h3{
 }
 
 @media screen and (max-width: 767px){
-    .service_{
+    .service_acceuil{
         height: 200px;
     }
-    .service_ h1{
+    .service_acceuil h1{
         padding-top: 12%;
         margin-left: 30px;
         font-size: 35px;
     }
-    .service_ p{
+    .service_acceuil p{
         margin-left: 30px;
         font-size: 15px;
     }
@@ -161,7 +161,7 @@ h3{
     .picture_content{
         display: flex;
         justify-content: start;
-        /* overflow:auto; */
+        overflow:hidden;
     }
     .picture_content img{
         width: 120px;

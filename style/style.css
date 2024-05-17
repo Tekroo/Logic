@@ -2,7 +2,7 @@
     margin: 0;
     padding: 0;
     font-family: "Poppins", sans-serif;
-    font-weight: 450;
+    font-weight: 400;
     font-style: normal;
 }
 
@@ -20,7 +20,7 @@ main{
     margin: auto;
 }
 /* Mon header */
-header{
+header {
     height: 40px;
     display: flex;
     justify-content: space-between;
@@ -52,6 +52,7 @@ nav ul ul{
     margin:10px 0;
     position: absolute;
     background-color: #f9f9f9;
+    z-index: 4000;
 }
 nav ul ul li a{
     display: block;
@@ -84,7 +85,7 @@ nav ul li:hover > ul{
     font-style: italic;
 }
 #acceuil p{
-    margin: 30px;
+    margin: 0px;
     font-size: 30px;
     opacity: .8;
 }
@@ -330,10 +331,10 @@ footer #copyr{
 }
 nav ul{
     display: flex;
-    margin-top: 15px;
 }
 nav ul li {
     margin: 0 10px;
+    padding: 20px 0px;
 }
 nav ul li a {
     margin: 0px;
@@ -346,7 +347,7 @@ nav ul ul{
 nav ul ul li{
     display: block;
     margin: 0;
-    padding:10px 20px;
+    padding: 0px 0px;
 }
 nav ul ul li:hover{
     background-color: #009ee22f;
@@ -588,6 +589,7 @@ footer{
         position:relative;
         margin-top: 40px;
         background-color: var(--couleur-secondaire);
+        z-index: 4000;
     }
     nav ul li {
         list-style: none;
@@ -611,7 +613,7 @@ footer{
     nav ul ul li{
         display: block;
         margin: 5px 0;
-        padding: 10px;
+        padding: 3px;
     }
     nav ul ul li a{
         display: block;
@@ -628,14 +630,13 @@ footer{
     }
     
     #acceuil{
-        height: 200px;
+        height: 300px;
     }
     #acceuil h1{
         padding-top: 10%;
         font-size: 40px;
     }
     #acceuil p{
-        display: none;
         font-size: 17px;
     }
     
@@ -662,7 +663,7 @@ footer{
         height: 150px;
         border: var(--couleur-principale) solid 2px;
         border-radius: 10px;
-        margin-top: 40px;
+        margin-top: 30px;
         margin-right: 20px;
     }
     .smp h2{

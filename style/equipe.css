@@ -6,7 +6,7 @@
 span{
     color: var(--couleur-secondaire);
     font-weight: bold;
-}
+} 
 #equi_main{
     margin: 100px 0px ;
     width: auto;
@@ -21,7 +21,7 @@ span{
 .equi_acceuil h1{
     padding-top: 10%;
     margin-left: 50px;
-    font-size: 60px; 
+    font-size: 60px;
     font-style: italic;
 }
 .dg{

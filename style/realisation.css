@@ -19,23 +19,37 @@ span{
     font-size: 60px;
     font-style: italic;
 }
+.rea_content.hidden{
+    display: none;
+}
 
 /* main */
+main{
+    width: 100%;
+    background-color: #7ba7b948;
+    margin-bottom: 40px; 
+    padding: 2px 0px;
+}
 main ul{
     display: flex;
     justify-content: center;
     margin-top: 100px;
 }
 main ul li {
-    font-style: none;
     list-style: none;
 }
 main ul li a {
-    color: #000;
+    /* color: var(--couleur-principale); */
     text-decoration: none;
-    font-weight: bold;
     font-size: 20px;
     margin: 0 30px;
+    padding: 5px;
+}
+.show_li{
+    color: #fff;
+    border-radius: 3px ;
+    border-top-right-radius: 30px;
+    background-color: #25348B;
 }
 .rea_content{
     display: flex;
@@ -52,16 +66,17 @@ main ul li a {
 }
 .texte h4{
     margin-bottom: 20px;
+    color: var(--couleur-secondaire);
+    font-style:oblique;
+    font-size: large;
 }
-
+#hre{
+    display: none;
+}
 @media screen and (min-width: 768px) and (max-width: 935px){
-    .rea_acceuil{
-        height: 270px;
-    }
     .rea_acceuil h1{
         font-size: 50px;
     }
-    
     main ul{
         margin-top: 80px;
     }
@@ -70,7 +85,7 @@ main ul li a {
     }
     .rea_content{
         display: flex;
-        margin: 50px 30px;
+        margin: 50px 0px;
         align-items: center;
     }
     .rea_content img {
@@ -78,57 +93,56 @@ main ul li a {
         height: 300px;
     }
     .texte{
+        width: 50%;
         text-align:justify;
         margin: 0 20px;
     }
 }
 
 @media screen and (max-width: 767px){
-    .rea_acceuil{    
-        background:linear-gradient(rgba(87, 91, 97, 0.301), rgba(87, 91, 97, 0.301)),url('photo-00.jpg') center; 
-        background-size: cover;
-        height: 50vh;
-        color: #fff;
-        text-align: start;
+    .rea_acceuil{
+        height: 200px;
     }
     .rea_acceuil h1{
-        padding-top: 10%;
-        margin-left: 50px;
-        font-size: 60px;
-        font-style: italic;
+        font-size: 40px;
     }
     
     /* main */
+    main{
+        font-size: small;
+    }
     main ul{
         display: flex;
         justify-content: center;
         margin-top: 100px;
-    }
-    main ul li {
-        font-style: none;
-        list-style: none;
+        margin-bottom: 30px;
     }
     main ul li a {
-        color: #000;
-        text-decoration: none;
-        font-weight: bold;
-        font-size: 20px;
-        margin: 0 30px;
+        font-size: 15px;
+        margin: 5px;
     }
     .rea_content{
-        display: flex;
-        margin: 70px;
+        display: block;
+        margin: 10px;
     }
     .rea_content img {
-        width: 50%;
+        width: 100%;
         height: 300px;
     }
     .texte{
-        width: 40%;
+        width: 100%;
         text-align: justify;
-        margin: 0 40px;
+        margin: 0px;
     }
     .texte h4{
         margin-bottom: 20px;
+    }
+    #hre{
+        display: block;
+        width: 80%;
+        height: 5px;
+        background-color: var(--couleur-principale);
+        border: none;
+        margin: 50px;
     }
 }
