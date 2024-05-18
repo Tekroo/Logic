@@ -13,12 +13,12 @@
     <script src="script/script.js" defer></script>
 </head>
 <body> 
-    <header>
+<header>
         <a href="index.php"><img src="img/Logic.png" alt="logo de logic"></a>
         <nav>
             <ul>
-                <li><a href="#acceuil">Accueil</a></li>
-                <li><a href="#services">Nos services</a>
+                <li><a href="index.php" class="default_ulbg active">Accueil</a></li>
+                <li><a href="#" class="default_ulbg">Nos services > </a>
                     <ul>
                         <li><a href="service_batiment.php">Bâtiment et travaux publics</a></li>
                         <li><a href="service_amenage.php">Assainissement et Aménagement des pistes</a></li>
@@ -27,15 +27,15 @@
                         <li><a href="service_engins.php">Location d'engins lourds</a></li>
                     </ul>
                 </li>
-                <li><a href="realisation.php">Nos réalisations</a></li>
-                <li><a href="equipe.php">Notre équipe</a></li>
-                <li><a href="a_propos.php">À propos</a></li>
-                <li><a href="contact.php">Contact</a></li>  
+                <li><a href="realisation.php" class="default_ulbg">Nos réalisations</a></li>
+                <li><a href="equipe.php" class="default_ulbg">Notre équipe</a></li>
+                <li><a href="a_propos.php" class="default_ulbg">À propos</a></li>
+                <li><a href="contact.php" class="default_ulbg">Contact</a></li>  
             </ul> 
         </nav> 
         <img src="img/Menu_icon_2_icon-icons.com_71856.png" id="open_icon">
         <img src="img/4115230-cancel-close-cross-delete_114048.png" id="close_icon">
-    </header> 
+</header> 
 
     <div id="acceuil">
         <h1>L'art de bâtir</h1>
@@ -47,7 +47,7 @@
             <div class="smp">
                 <h2>Bienvenu chez Logic - Votre partenaire de confiance dans le BTP </h2><hr>
                 <p>
-                    Chez <span>Logic</span> , nous sommes bien plus qu'une entreprise de construction, nous sommes des bâtisseurs d'avenir. Depuis notre premier coup de pelle, notre engagement envers l'excellence a été le moteur de chaque projet que nous entreprenons. Notre histoire est façonnée par des réussites, des défis relevés et des partenariats solides.
+                    Chez <span>Logic</span>, nous sommes des bâtisseurs d'avenir. Depuis notre premier coup de pelle, notre engagement envers l'excellence a été le moteur de chaque projet que nous entreprenons. Notre histoire est façonnée par des réussites, des défis relevés et des partenariats solides.
                 </p>
             </div>
             <img src="img/divindus-btp.jpg" alt="">
@@ -93,8 +93,8 @@
                 <div class="smp3">
                     <h3>Nos engagements</h3>
                     <p>
-                        <span>Logic </span>se distingue par un engagement inébranlable envers l'excellence et l'intégrité. En tant que pilier de notre communauté, nous nous engageons à fournir des solutions de construction de la plus haute qualité, répondant aux normes les plus strictes de sécurité et de durabilité. Notre équipe dévouée, composée d'experts chevronnés, travaille sans relâche pour réaliser chaque projet avec précision et fiabilité. <br>
-                        Nous somme également profondément investis dans la responsabilité sociale en cherchant activement à contribuer positivement à nos communautés locale et minimiser notre empreinte environnementale.
+                        <span>Logic </span>est connu pour son engagement absolu envers l'excellence et l'intégrité. Nous nous positionnons en tant que l'un des meilleurs fournisseurs des solutions de construction de la plus haute qualité, répondant aux normes les plus strictes de sécurité et de durabilité. Notre équipe dévouée, composée d'experts, travaille sans relâche pour réaliser chaque projet avec précision et fiabilité. <br>
+                        La structure s'investit également dans la responsabilité sociale en cherchant activement à contribuer positivement à sa communauté locale et minimiser ses empreintes environnementales .
                         
                     </p>
                 </div>
@@ -106,26 +106,26 @@
             <div class="simple3">
                 <div class="smp4">
                     <div class="project">
-                        <img src="img/p1.jpeg" alt=""><br>
-                        <a href="realisation.php">Caserne Allada</a>
+                        <img src="img/bat3.png" alt=""><br>
+                        <a href="http://localhost/logic/realisation.php#caserne">Caserne Allada</a>
                     </div>
                     <div class="project">
-                        <img src="img/p3.jpg" alt=""><br>
-                        <a href="realisation.php">Mairie de Parakou</a>
+                        <img src="img/latrine.jpg" alt=""><br>
+                        <a href="http://localhost/logic/realisation.php#latrine">Mairie de Parakou</a>
                     </div>
                     <div class="project">
-                        <img src="img/p2.jpg" alt=""><br>
-                        <a href="realisation.php">Magasin de stockage</a>
+                        <img src="img/rea1.jpg" alt=""><br>
+                        <a href="http://localhost/logic/realisation.php#magasin">Magasin de stockage</a>
                     </div>
                 </div>
                 <div class="smp5">
                     <div class="project">
-                        <img src="img/p4.jpg" alt=""><br>
-                        <a href="realisation.php">Pavage kalalè</a>
+                        <img src="img/pave1.jpg" alt=""><br>
+                        <a href="http://localhost/logic/realisation.php#kalale">Pavage kalalè</a>
                     </div>
                     <div class="project">
-                        <img src="img/p5.jpeg" alt=""><br>
-                        <a href="realisation.php">Pistes PACER</a>
+                        <img src="img/piste1.jpg" alt=""><br>
+                        <a href="http://localhost/logic/realisation.php#pacer">Pistes PACER</a>
                     </div>
                 </div>
             </div>
@@ -148,26 +148,24 @@
 
     <footer>
         <div class="simple5">
-            <h2>LOGIC</h2>
+            <img src="img/Logic.png" alt="Logo de logic">
             <p>Construisons un monde solide et durable</p>
             <div class="smp6">
                 <div class="smp7">
                     <h4>Suivez-nous</h4>
-                    <a href="#facebook">Facebook</a><br>
-                    <a href="#linkedin">LinkedIn</a><br>
-                    <a href="#instagram">Instagram</a><br>
+                    <a href="https://www.facebook.com/profile.php?id=61557700384107" target="_blank">Facebook</a><br>
+                    <a href="https://www.linkedin.com/in/logic-842323301?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">LinkedIn</a><br>
+                    <a href="https://x.com/LogicBTP?t=o_WHYfROfhQy60uyv4o54A&s=09" target="_blank">X (ex Twitter)</a><br>
                 </div>
                 <div class="smp7">
-                    <h4><a href="#contact">Contact</a></h4>
+                    <h4 id="cont"><a href="contact.php">Contact</a></h4>
                     <a href="#mention">Mentions légales</a><br>
                     <a href="#confidentialite">Confidentialité</a><br>
-                    <a href="#cookies">Cookies</a><br>
                     <a href="#plan">Plan du site</a><br>
                 </div>
                 <div class="smp7">
                     <h4>Liens utiles</h4>
-                    <a href="#services">Nos services</a><br>
-                    <a href="realisaton.php"> Nos réalisations</a><br>
+                    <a href="realisation.php"> Nos réalisations</a><br>
                     <a href="equipe.php">Notre équipe</a><br>
                     <a href="a_propos.php">À propos</a><br>   
                 </div>

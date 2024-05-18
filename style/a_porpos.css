@@ -9,7 +9,7 @@ span{
 }
 
 .propos_accueil{    
-    background:linear-gradient(rgba(87, 91, 97, 0.425), rgba(87, 91, 97, 0)),url('photo-00.jpg') center; 
+    background:linear-gradient(rgba(87, 91, 97, 0.425), rgba(87, 91, 97, 0.363)),url('photo-00.jpg') center;
     background-size: cover;
     height: 45vh;
     color: #fff;
@@ -63,11 +63,12 @@ h2{
     display: flex;
 }
 .val{
-    text-align: justify;
     margin: 20px;
 }
 .val img{
-    display: none;
+    width: 35%;
+    height: 100px;
+    margin: 0px 20px;
 }
 @media screen and (min-width: 768px) and (max-width: 1024px){
     main{

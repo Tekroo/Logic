@@ -24,7 +24,7 @@
 
     <main id="equi_main">
         <div class="dg">
-            <img src="img/dg.png" alt="">
+            <img src="img/dg.jpg" alt="">
             <div class="text"> 
                 <h3>Mot du Directeur, </h3><br>
                 <p>
@@ -40,8 +40,8 @@
             <p>Notre équipe est composée de professionnels dévoués et expérimentés qui s'engagent à fournir un service de qualité</p>
             <div class="team_content">
                 <div class="member">
-                    <h3>Ingénieur bâtiment</h3>
-                    <img src="img/agent1.jpg" alt="Image d'un membre" id="m_img">
+                    <h3>Technicien géomètre</h3>
+                    <img src="img/agent1.png" alt="Image d'un membre" id="m_img">
                     <p>Prénoms <br>Nom</p>
                     <ul>
                         <li><a href="#"><img src="icone/FB_icon-icons.com_65484.ico" alt="facebook_img"></a></li>
@@ -50,7 +50,7 @@
                     </ul>
                 </div>
                 <div class="member">
-                    <h3>Ingénieur bâtiment</h3>
+                    <h3>Conducteur d’engins</h3>
                     <img src="img/agent2.png" alt="Image d'un membre" id="m_img">
                     <p>Prénoms <br>Nom</p>
                     <ul>
@@ -61,7 +61,7 @@
                 </div>
                 <div class="member">
                     <h3>Ingénieur bâtiment</h3>
-                    <img src="img/agent3.jpg" alt="Image d'un membre" id="m_img">
+                    <img src="img/agent1.png" alt="Image d'un membre" id="m_img">
                     <p>Prénoms <br>Nom</p>
                     <ul>
                         <li><a href="#"><img src="icone/FB_icon-icons.com_65484.ico" alt="facebook_img"></a></li>

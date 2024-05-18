@@ -7,7 +7,7 @@ span{
     color: var(--couleur-secondaire);
 }
 .service_acceuil{    
-    background:linear-gradient(rgba(87, 91, 97, 0.425), rgba(87, 91, 97, 0)),url('photo-00.jpg') center; 
+    background:linear-gradient(rgba(87, 91, 97, 0.425), rgba(87, 91, 97, 0.363)),url('photo-00.jpg') center; 
     background-size: cover;
     height: 50vh;
     color: #fff;
@@ -149,24 +149,32 @@ h3{
         text-align: start;
     }
     .pic_float.expanded{
+        position: absolute;
         transform: translate(-50%,-50%) scale(3);
+        top: 40%;
+        left: 50%;
+        padding: 10px;
+        width: 30%;
     }
     .picture{
         margin: 50px 0;
     }
     .picture img{
-        width: 80%;
+        width: 90%;
         height: 250px;
     }
     .picture_content{
         display: flex;
-        justify-content: start;
-        overflow:hidden;
+        flex-wrap: wrap;
+        gap: 20px;
+        text-align: center;
     }
+
     .picture_content img{
         width: 120px;
         height: 70px;
         margin-right: 40px;
+        flex: 1 1 calc(40% - 10px); 
     }
     h3{
         margin: 30px 0;

@@ -67,13 +67,21 @@ nav ul li:hover{
     transition-duration: .8s;
 }
 
-
+.default_ulbg.active {
+    background-color: #009ee2;
+    transition-duration: .8s;
+    color: #ffffffcb;
+    padding: 19px;
+}
+.default_ulbg {
+    /* transition: color 0.3s; */
+}
 nav ul li:hover > ul{
     display: block;
 }
 
 #acceuil{    
-    background:linear-gradient(rgba(87, 91, 97, 0.425), rgba(87, 91, 97, 0)),url('photo-00.jpg') center; 
+    background:linear-gradient(rgba(87, 91, 97, 0.425), rgba(87, 91, 97, 0.363)),url('photo-00.jpg') center; 
     background-size: cover;
     height: 60vh;
     color: #fff;
@@ -144,27 +152,27 @@ hr{
 
 .smp1{
     display: flex;
+    justify-content: space-around;
 }
 .service{
     border-radius: 15px 15px 0 0;
     background-color: #fff;
-    width: 350px;
-    margin: auto ;
+    width: 360px;
 }
 .service img{
-    width: 350px;
+    width: 360px;
     height: 230px;
     border-radius: 15px 15px 0 0;
 }
 .smp2{
     margin-top: 7%;
     display: flex;
+    justify-content: space-between;
 }
 .service1{
     border-radius: 15px 15px 0 0;
     background-color: #fff;
     width: 300px;
-    margin: auto ;
 }
 .service1 img{
     width: 300px;
@@ -191,15 +199,16 @@ hr{
 #engagement{
     margin: 0;
     width: 100%;
-    background: linear-gradient(rgba(203, 218, 241, 0.7), rgba(203, 218, 241, 0.3)),url('back.jpg') no-repeat;
+    background: linear-gradient(rgba(203, 218, 241, 0.7), rgba(203, 218, 241, 0.623)),url('back.jpg') no-repeat;
     background-size: 60%;
-    padding: 100px 0;
+    padding-top: 100px;
+    padding-bottom: 20px;
     background-position-x: 300px;
     background-position-y: 150px;
 }
 .simple2{
     display: flex;
-    width: 75%;
+    width: 80%;
     margin: 100px auto;
     justify-content:space-around;
     align-items: center;
@@ -210,7 +219,7 @@ hr{
     border-radius: 10px;
 }
 .smp3{
-    margin-left: 50px;
+    margin-left: 0px;
     text-align: justify;
 }
 .smp3 h3{
@@ -264,7 +273,7 @@ hr{
 /* Nos partenaires */
 #partenaires{
     text-align: center;
-    margin: 200px 0;
+    margin: 130px 0;
 }
 #partenaires h3{
     font-size: 35px;
@@ -293,9 +302,11 @@ footer{
     background-color: var(--couleur-secondaire);
     padding: 20px 0;
 }
-.simple5 h2{
-    font-size: 40px;
+.simple5 img{
     margin: 20px;
+    background-color: #fff;
+    width: 220px;
+    border-radius: 200px;
 }
 .simple5 p{
     margin-bottom: 30px;
@@ -312,10 +323,9 @@ footer{
     color: #fff;
     opacity: .8;
 }
-.smp7 h4, h4 a{
+.smp7 h4{
     font-size: 25px;
     color: #fff;
-    text-decoration: none;
     margin: 20px;
 }
 footer #copyr{
@@ -325,7 +335,7 @@ footer #copyr{
 }
 
 
-@media screen and (min-width: 768px) and (max-width: 1024px){ 
+@media screen and (min-width: 768px) and (max-width: 1050px){ 
 #menu_icon{
     display: none;
 }
@@ -376,44 +386,31 @@ nav ul li:hover > ul{
     font-size: 25px;
 }
 
-
 .simple1{
-    width: auto;
+    width: 100%;
     margin: 0;
 }
-#services{
-    background-color: #D3E8F5;
-    margin-top: 100px;
-    text-align: center;
-    padding-bottom: 100px;
-}
-#services h3{
-    font-size: 25px;
-    padding: 25px;
-}
-
 .smp1{
     display: flex;
+    justify-content: space-around;
+    
 }
 .service{
-    width:300px;
-    margin: auto;
+    width: 340px;
 }
 .service img{
-    width: 300px;
-    height: 200px;
+    width: 340px;
+    height: 230px;
 }
 .smp2{
-    margin-top: 7%;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 .service1{
-    width: 250px;
-    margin: auto;
+    width: 280px;
 }
 .service1 img{
-    width: 250px;
+    width: 280px;
     height: 200px;
 }
 #services h4{
@@ -434,13 +431,13 @@ nav ul li:hover > ul{
 
 
 #engagement{
-    margin: 40px 0 ;
     width: auto;
-    background: linear-gradient(rgba(203, 218, 241, 0.7), rgba(203, 218, 241, 0.3)),url('back.jpg') no-repeat;
+    background: linear-gradient(rgba(203, 218, 241, 0.7), rgba(203, 218, 241, 0.63)),url('back.jpg') no-repeat;
     background-size: 100%;
-    padding: 100px 0;
+    padding-top: 50px;
+    padding-bottom: 5px;
     background-position-x: 30px;
-    background-position-y: 150px;
+    background-position-y: 100px;
 }
 .simple2{
     display: flex;
@@ -473,7 +470,7 @@ nav ul li:hover > ul{
 
 
 #realisation{
-    margin: 0px;
+    margin-top: 100px;
 }
 #realisation h3{
     font-size: 30px;
@@ -499,7 +496,7 @@ nav ul li:hover > ul{
 
 #partenaires{
     text-align: center;
-    margin: 130px 0;
+    margin: 100px 0;
 }
 #partenaires h3{
     font-size: 30px;
@@ -523,9 +520,11 @@ footer{
 .simple5{
     padding: 20px 0;
 }
-.simple5 h2{
-    font-size: 35px;
-    margin: 15px;
+.simple5 img{
+    margin: 10px;
+    width: 200px;
+    background-color: #fff;
+    border-radius: 200px;
 }
 .simple5 p{
     margin-bottom: 30px;
@@ -678,7 +677,7 @@ footer{
     }
     #services{
         background-color: #D3E8F5;
-        margin-top: 300px;
+        margin-top: 200px;
         padding-bottom: 50px;
     }
     #services h3{
@@ -718,7 +717,7 @@ footer{
     #engagement{
         margin: 50px 0 ;
         width: 100%;
-        background: linear-gradient(rgba(203, 218, 241, 0.7), rgba(203, 218, 241, 0.473)),url('back.jpg') no-repeat;
+        background: linear-gradient(rgba(203, 218, 241, 0.7), rgba(203, 218, 241, 0.603)),url('back.jpg') no-repeat;
         background-size: 100%;
         padding: 40px 0;
         background-position-x: 0px;
@@ -779,7 +778,7 @@ footer{
     /* Nos partenaires */
     #partenaires{
         text-align: center;
-        margin: 200px 0;
+        margin: 100px 0;
     }
     #partenaires h3{
         font-size: 25px;
@@ -806,8 +805,10 @@ footer{
         background-color: var(--couleur-secondaire);
         padding: 10px 0;
     }
-    .simple5 h2{
-        font-size: 30px;
+    .simple5 img{
+        border-radius: 200px;
+        background-color: #fff;
+        width: 170px;
         margin: 15px;
     }
     .simple5 p{

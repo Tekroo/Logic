@@ -17,9 +17,7 @@
     <?php
     include('pages/header.php');
     ?>
-    <div name="localisation">
-        <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d7930.303543147563!2d2.423117988369694!3d6.374399324463294!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sJ%C3%A9richo%20Cotonou!5e0!3m2!1sfr!2sbj!4v1712671248183!5m2!1sfr!2sbj" width="100%" height="250px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
-    </div>
+
     <main class="contain">
         <div>
             <h1>Contactez-Nous</h1>
@@ -45,7 +43,9 @@
             </form>
         </div>
     </main>
-
+    <div name="localisation">
+        <iframe src="https://www.google.com/maps/embed?pb=!1m16!1m12!1m3!1d7930.303543147563!2d2.423117988369694!3d6.374399324463294!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!2m1!1sJ%C3%A9richo%20Cotonou!5e0!3m2!1sfr!2sbj!4v1712671248183!5m2!1sfr!2sbj" width="100%" height="250px" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+    </div>
     <?php
     include('pages/footer.php');
     ?> 

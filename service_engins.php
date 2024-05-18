@@ -26,7 +26,7 @@
     <main>
         <p><span>Location d'engins lourds,</span></p>
         <div class="text">
-            Service de mise à disposition temporaire de machines de construction et d'équipements lourds tels que les bulldozers, les excavatrices et les grues, offert aux entreprises du secteur de la construction pour répondre à leurs besoins spécifiques de chantier, nous avons ce qu'il vous faut pour mener à bien votre projet en toute efficacité et sécurité.
+            Service de mise à disposition temporaire de machines de construction et d'équipements lourds tels que les bulldozers, les excavatrices et les grues, offerts aux entreprises du secteur de la construction pour répondre à leurs besoins spécifiques de chantier, nous avons ce qu'il vous faut pour mener à bien votre projet en toute  sécurité.
         </div>
         <div class="picture">
             <img src="img/backho.jpg" alt="">

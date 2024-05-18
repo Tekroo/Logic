@@ -26,7 +26,7 @@
     <main>
         <p><span>Vente de béton,</span></p>
         <div class="text">
-            Nous fournissons du béton de haute qualité prêt à l'emploi aux entreprises de construction, aux entrepreneurs et aux particuliers pour tous vos besoins en construction. Que ce soit pour des fondations, des dalles ou des structures, notre béton est conçu pour offrir une résistance et une durabilité exceptionnelles.
+            Nous fournissons du béton de haute qualité prêt à l'emploi aux entreprises de construction, aux entrepreneurs et aux particuliers pour tous leur besoins en construction. Que ce soit pour des fondations, des dalles ou des structures, notre béton est conçu pour offrir une résistance et une durabilité exceptionnelles.
         </div>
         <div class="picture">
             <img src="img/R.jpg" alt="">

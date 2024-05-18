@@ -22,12 +22,12 @@
         <h1>Nos services</h1>
         <p>Nos services > Assainissement et Aménagement des pistes</p>
     </div>
-    
+     
     <main>
         <p><span>Assainissement et Aménagement des pistes,</span></p>
         <div class="text">
-            Notre gamme de services englobe la construction, la rénovation et l'entretien des routes, des chemins de terre et des pistes pour garantir une circulation fluide, sécurisée et durable. Nous sommes déterminés à mettre en place les systèmes de drainage et d'assainissement nécessaires pour prévenir les problèmes liés à l'eau et à l'érosion, assurant ainsi des infrastructures routières résilientes et pérennes.
-            Nous proposons également des services d'assainissement pour assurer des environnements sains et sûrs, ainsi que des services d'aménagement des pistes visant à créer et entretenir des voies de circulation efficaces. Que ce soit pour des projets urbains ou ruraux, nous disposons des compétences et des équipements nécessaires pour répondre à vos besoins en matière d'assainissement et d'aménagement des pistes.
+            Nos offres de service englobent la construction, la rénovation et l'entretien des pistes pour garantir une circulation fluide, sécurisée et durable. Nous sommes déterminés à mettre en place les systèmes de drainage et d'assainissement nécessaires pour prévenir les problèmes liés à l'eau et à l'érosion, assurant ainsi des infrastructures routières résilientes et pérennes.
+            Nous proposons également des services d'assainissement pour assurer des environnements sains, ainsi que des services d'aménagement des pistes visant à créer et entretenir des voies de circulation efficaces. Que ce soit pour des projets urbains ou ruraux, nous disposons des compétences et des équipements nécessaires pour répondre à vos besoins en matière d'assainissement et d'aménagement des pistes.
         </div>
         <div class="picture"> 
             <img src="img/Rothau.jpg" alt="">

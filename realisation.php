@@ -24,13 +24,13 @@
  
     <main> 
     <ul class="menu">
-            <li><a href="#" class="filter" data-filter="all">All</a></li>
+            <li><a href="#" class="filter active" data-filter="all">All</a></li>
             <li><a href="#" class="filter" data-filter="bat">Bâtiments et travaux publics</a></li>
             <li><a href="#" class="filter" data-filter="ame">Aménagement de pistes</a></li>
             <li><a href="#" class="filter" data-filter="pre">Préfa</a></li>
     </ul>
 
-        <div class="rea_content bat">
+        <div class="rea_content bat" id="latrine">
             <div class="texte">
                 <h4>Latrine Mairie Parakou</h4>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum nostrum autem aliquid dignissimos excepturi, iste dicta, tempore beatae iure vel eius facilis voluptate? Ipsum architecto obcaecati doloribus illum veniam at? Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex eum error cum nostrum nam ipsum excepturi natus assumenda! Molestiae et laborum saepe eligendi harum optio delectus asperiores aliquam numquam consequuntur.
@@ -38,15 +38,30 @@
             <img src="img/latrine2.jpg" alt="">
         <hr id="hre">
         </div>
-        <div class="rea_content bat">
+        <div class="rea_content bat" id="caserne">
+            <img src="img/bat2.png" alt="">
+            <div class="texte">
+                <h4>Caserne Allada</h4>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum nostrum autem aliquid dignissimos excepturi, iste dicta, tempore beatae iure vel eius facilis voluptate? Ipsum architecto obcaecati doloribus illum veniam at? Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex eum error cum nostrum nam ipsum excepturi natus assumenda! Molestiae et laborum saepe eligendi harum optio delectus asperiores aliquam numquam consequuntur.
+            </div> 
+        <hr id="hre">
+        </div>
+        <div class="rea_content bat" id="magasin">
+            <div class="texte">
+                <h4>Magasin de stockage</h4>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum nostrum autem aliquid dignissimos excepturi, iste dicta, tempore beatae iure vel eius facilis voluptate? Ipsum architecto obcaecati doloribus illum veniam at? Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex eum error cum nostrum nam ipsum excepturi natus assumenda! Molestiae et laborum saepe eligendi harum optio delectus asperiores aliquam numquam consequuntur.
+            </div>
+            <img src="img/rea2.jpg" alt="">
+        </div>
+        <div class="rea_content ame" id="hassan">
             <img src="img/destruct.jpg" alt="">
             <div class="texte">
                 <h4>Démolition batiment HASSAN II</h4>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum nostrum autem aliquid dignissimos excepturi, iste dicta, tempore beatae iure vel eius facilis voluptate? Ipsum architecto obcaecati doloribus illum veniam at? Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex eum error cum nostrum nam ipsum excepturi natus assumenda! Molestiae et laborum saepe eligendi harum optio delectus asperiores aliquam numquam consequuntur.
             </div>
         <hr id="hre">
-        </div>
-        <div class="rea_content ame">
+        </div> 
+        <div class="rea_content ame" id="pacer">
             <div class="texte">
                 <h4>Pistes PACER</h4>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum nostrum autem aliquid dignissimos excepturi, iste dicta, tempore beatae iure vel eius facilis voluptate? Ipsum architecto obcaecati doloribus illum veniam at? Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex eum error cum nostrum nam ipsum excepturi natus assumenda! Molestiae et laborum saepe eligendi harum optio delectus asperiores aliquam numquam consequuntur.
@@ -55,35 +70,27 @@
         <hr id="hre">
         </div>
         <div class="rea_content ame">
-            <img src="img/pave.jpg" alt="">
+            <img src="img/pave.jpg" alt="" id="kalale">
             <div class="texte">
                 <h4>Pavage Kalalé</h4>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum nostrum autem aliquid dignissimos excepturi, iste dicta, tempore beatae iure vel eius facilis voluptate? Ipsum architecto obcaecati doloribus illum veniam at? Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex eum error cum nostrum nam ipsum excepturi natus assumenda! Molestiae et laborum saepe eligendi harum optio delectus asperiores aliquam numquam consequuntur.
             </div>
         <hr id="hre">
         </div>
-        <div class="rea_content pre">
-            <div class="texte">
-                <h4>Caserne Allada</h4>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum nostrum autem aliquid dignissimos excepturi, iste dicta, tempore beatae iure vel eius facilis voluptate? Ipsum architecto obcaecati doloribus illum veniam at? Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex eum error cum nostrum nam ipsum excepturi natus assumenda! Molestiae et laborum saepe eligendi harum optio delectus asperiores aliquam numquam consequuntur.
-            </div> 
-            <img src="img/bat2.png" alt="">
-        <hr id="hre">
-        </div>
-        <div class="rea_content pre">
-            <img src="img/aguegue.jpg" alt="">
+        <div class="rea_content ame">
             <div class="texte">
                 <h4>Chantier Aguégué</h4>
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum nostrum autem aliquid dignissimos excepturi, iste dicta, tempore beatae iure vel eius facilis voluptate? Ipsum architecto obcaecati doloribus illum veniam at? Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex eum error cum nostrum nam ipsum excepturi natus assumenda! Molestiae et laborum saepe eligendi harum optio delectus asperiores aliquam numquam consequuntur.
             </div>
+            <img src="img/aguegue.jpg" alt="" id="aguegue">
         <hr id="hre">
         </div>     
-        <div class="rea_content pre">
+
+        <div class="rea_content pre" id="prefabrication">
             <div class="texte">
-                <h4>Magasin de stockage</h4>
-                Lorem ipsum dolor sit amet consectetur adipisicing elit. Earum nostrum autem aliquid dignissimos excepturi, iste dicta, tempore beatae iure vel eius facilis voluptate? Ipsum architecto obcaecati doloribus illum veniam at? Lorem ipsum dolor sit amet consectetur adipisicing elit. Ex eum error cum nostrum nam ipsum excepturi natus assumenda! Molestiae et laborum saepe eligendi harum optio delectus asperiores aliquam numquam consequuntur.
+                <h4>A venir . . .</h4>
             </div>
-            <img src="img/rea2.jpg" alt="">
+            <!-- <img src="#" alt="Comming soon"> -->
         </div>
     </main>
 

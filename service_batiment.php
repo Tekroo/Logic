@@ -25,7 +25,7 @@
     <main>
         <p><span>Bâtiment et travaux publics,</span></p>
         <div class="text">
-        Notre expertise en construction de bâtiments et en travaux publics nous permet de réaliser une large gammes de projets, qu'il s'agisse de bâtiments résidentiels, commerciaux ou industriels, ou de travaux publics tels que la construction de routes, de ponts et d'ouvrages d'art. Nous nous engageons à livrer des projets de haute qualité, dans les délais convenus et en respectant les normes les plus strictes de sécurité et de durabilité.
+        Notre savoir faire dans le domaine de la construction nous permet de mener à bien de nombreux projets, qu'il s'agisse de bâtiments résidentiels, commerciaux, ou de travaux publics tels que la construction de routes, de ponts et d'infrastructures artistiques. Nous veillons à ce que vos travaux soit livrés dans les délais prédéfinis conformément au cahier de charge.
         </div>
         <div class="picture">
             <img src="img/batiment1.jpg" alt="">
