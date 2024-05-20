@@ -28,14 +28,16 @@
         <div class="text">
            La préfabrication offre des avantages significatifs en termes de rapidité, de qualité et de coût dans la construction.  Nous commercialisons des éléments de construction préfabriqués en usine, tels que des poutres, des panneaux, des dalles ou des éléments structuraux complets.
         </div>
-        <div class="picture">
-            <img src="img/Prefa1.jpg" alt="">
-        </div>
-        <div class="picture_content">
-            <img src="img/Dachschin.jpg" alt="" class="pic_float">
-            <img src="img/prefa4.jpg" alt="" class="pic_float">
-            <img src="img/PREFALZ.jpg" alt="" class="pic_float">
-            <img src="img/PREFAITALIA.jpg" alt="" class="pic_float">
+        <div class="pic">
+            <div class="picture">
+                <img src="img/pref2.jpg" alt="">
+            </div>
+            <div class="picture_content">
+                <img src="img/pref.jpg" alt="" class="pic_float">
+                <img src="img/prefa4.jpg" alt="" class="pic_float">
+                <img src="img/PREFALZ.jpg" alt="" class="pic_float">
+                <img src="img/Prefa1.jpg" alt="" class="pic_float">
+            </div>
         </div>
         <h3>Pour plus d'informations, <a href="contact.php">Contactez-nous</a></3>
     </main>

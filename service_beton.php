@@ -28,14 +28,16 @@
         <div class="text">
             Nous fournissons du béton de haute qualité prêt à l'emploi aux entreprises de construction, aux entrepreneurs et aux particuliers pour tous leur besoins en construction. Que ce soit pour des fondations, des dalles ou des structures, notre béton est conçu pour offrir une résistance et une durabilité exceptionnelles.
         </div>
-        <div class="picture">
-            <img src="img/R.jpg" alt="">
-        </div>
-        <div class="picture_content">
-            <img src="img/Brico.jpg" alt="" class="pic_float">
-            <img src="img/MachineBeton.jpg" alt="" class="pic_float">
-            <img src="img/beton_meule.jpg" alt="" class="pic_float">
-            <img src="img/BETON .jpg" alt="" class="pic_float">
+        <div class="pic">
+            <div class="picture">
+                <img src="img/R.jpg" alt="">
+            </div>
+            <div class="picture_content">
+                <img src="img/beton9.jpg" alt="" class="pic_float">
+                <img src="img/beton6.jpg" alt="" class="pic_float">
+                <img src="img/beton3.jpg" alt="" class="pic_float">
+                <img src="img/BETON .jpg" alt="" class="pic_float">
+            </div>
         </div>
         <h3>Pour plus d'informations, <a href="contact.php">Contactez-nous</a></3>
     </main>

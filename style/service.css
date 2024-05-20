@@ -12,7 +12,7 @@ span{
     height: 50vh;
     color: #fff;
     text-align: start;
-}
+} 
 .service_acceuil h1{
     padding-top: 10%;
     margin-left: 50px; 
@@ -152,9 +152,12 @@ h3{
         position: absolute;
         transform: translate(-50%,-50%) scale(3);
         top: 40%;
-        left: 50%;
+        left: 45%;
         padding: 10px;
         width: 30%;
+    }
+    .pic{
+        text-align: center;
     }
     .picture{
         margin: 50px 0;
@@ -166,14 +169,14 @@ h3{
     .picture_content{
         display: flex;
         flex-wrap: wrap;
-        gap: 20px;
-        text-align: center;
+        /* gap: 20px; */
+        justify-content: center;
     }
 
     .picture_content img{
         width: 120px;
         height: 70px;
-        margin-right: 40px;
+        margin: 10px 20px;
         flex: 1 1 calc(40% - 10px); 
     }
     h3{

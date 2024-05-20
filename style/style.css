@@ -14,6 +14,19 @@
 span{
     color: var(--couleur-secondaire);
 }
+.top_return{
+    position: fixed;
+    bottom: 0px;
+    right: 0px;
+    margin-right: 20px;
+    margin-bottom: 40px;
+    background-color: #009ee285;
+    padding: 5px;
+    border-radius: 10px;
+}
+#dg_name{
+    font-weight: bold;
+}
 /* Main */
 main{
     width: 90%;
@@ -34,6 +47,7 @@ header img{
     width: 150px;
     height: 50px;
 }
+
 nav ul{
     display: flex;
 }
@@ -546,6 +560,17 @@ footer{
 
 
 @media screen and (min-width: 200px) and (max-width: 767px){
+    .top_return{
+        margin-right: 10px;
+        margin-bottom: 50px;
+        background-color: #009ee285;
+        padding: 5px;
+    }
+    .top_return 
+    .default_ulbg.active {
+        display: block;
+    }
+    .d
     main{
         width: 100%;
         margin: auto;
@@ -579,6 +604,9 @@ footer{
     header img{
         width: 100px;
         height: 40px;
+    }
+    #head_log{
+        margin-left: 10px;
     }
     nav{
         display: none;
@@ -629,10 +657,10 @@ footer{
     }
     
     #acceuil{
-        height: 300px;
+        height: 50vh;
     }
     #acceuil h1{
-        padding-top: 10%;
+        padding-top: 20%;
         font-size: 40px;
     }
     #acceuil p{
@@ -810,6 +838,10 @@ footer{
         background-color: #fff;
         width: 170px;
         margin: 15px;
+    }
+    .simple5 h4{
+        margin: 15px;
+        margin-bottom: 0px;
     }
     .simple5 p{
         margin-bottom: 15px;

@@ -29,7 +29,7 @@
             </div>
             <div class="info">
                 <img src="icone/mail_email_message_electronic_online_web_icon-icons.com_59986.ico" alt="mail_icon">
-                <a href="mailto:logic2007@yahoo.fr">contact@logic.com</a>
+                <a href="mailto: ">contact@logic.bj</a>
             </div>
             <div class="info">
                 <img src="icone/phone-handset_icon-icons.com_48252.ico" alt="phone_icon">

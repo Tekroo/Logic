@@ -27,14 +27,16 @@
         <div class="text">
         Notre savoir faire dans le domaine de la construction nous permet de mener à bien de nombreux projets, qu'il s'agisse de bâtiments résidentiels, commerciaux, ou de travaux publics tels que la construction de routes, de ponts et d'infrastructures artistiques. Nous veillons à ce que vos travaux soit livrés dans les délais prédéfinis conformément au cahier de charge.
         </div>
-        <div class="picture">
-            <img src="img/batiment1.jpg" alt="">
-        </div>
-        <div class="picture_content">
-            <img src="img/batiment2.jpg" alt="" class="pic_float">
-            <img src="img/batiment3.jpg" alt="" class="pic_float">
-            <img src="img/batiment4.jpg" alt="" class="pic_float">
-            <img src="img/batiment5.jpg" alt="" class="pic_float">
+        <div class="pic">
+            <div class="picture">
+                <img src="img/batiment4.jpg" alt="">
+            </div>
+            <div class="picture_content">
+                <img src="img/batiment2.jpg" alt="" class="pic_float">
+                <img src="img/batiment3.jpg" alt="" class="pic_float">
+                <img src="img/batiment1.jpg" alt="" class="pic_float">
+                <img src="img/batiment5.jpg" alt="" class="pic_float">
+            </div>
         </div>
         <h3>Pour plus d'informations, <a href="contact.php">Contactez-nous</a></3>
     </main>

@@ -58,10 +58,11 @@ form input{
 }
 @media screen and (max-width: 767px){
     .contain{
-        padding: 30 0px;
-        margin: 60px 0;
+        padding: 40px;
+        margin: auto;
         width: 90%;
         font-size: 14px;
+        margin-bottom: 30px;
     }
     .info{
         display: flex;

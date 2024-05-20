@@ -28,7 +28,7 @@
                 À propos
             </h1>       
             <div>
-                Chez Logic, nous sommes bien plus qu'une entreprise de construction, nous sommes des bâtisseurs d'avenir. Depuis notre premier coup de pelle, notre engagement envers l'excellence a été le moteur de chaque projet que nous entreprenons. Notre histoire est façonnée par des réussites, des défis relevés et des partenariats solides
+                Chez <span>Logic</span>, nous sommes bien plus qu'une entreprise de construction, nous sommes des bâtisseurs d'avenir. Depuis notre premier coup de pelle, notre engagement envers l'excellence a été le moteur de chaque projet que nous entreprenons. Notre histoire est façonnée par des réussites, des défis relevés et des partenariats solides
             </div> 
         </div>  
         <div class="vi_mi">

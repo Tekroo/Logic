@@ -13,8 +13,11 @@
     <script src="script/script.js" defer></script>
 </head>
 <body> 
-<header>
-        <a href="index.php"><img src="img/Logic.png" alt="logo de logic"></a>
+<div class="top_return" onscroll=>
+            <a href="#top_ret"><img src="img/arrow_up_chevron.png" alt=""></a>
+</div>
+<header id="top_ret">
+        <a href="index.php" id="head_log"><img src="img/Logic.png" alt="logo de logic"></a>
         <nav>
             <ul>
                 <li><a href="index.php" class="default_ulbg active">Accueil</a></li>
@@ -158,16 +161,16 @@
                     <a href="https://x.com/LogicBTP?t=o_WHYfROfhQy60uyv4o54A&s=09" target="_blank">X (ex Twitter)</a><br>
                 </div>
                 <div class="smp7">
-                    <h4 id="cont"><a href="contact.php">Contact</a></h4>
-                    <a href="#mention">Mentions légales</a><br>
-                    <a href="#confidentialite">Confidentialité</a><br>
+                    <h4>Pages Légles</h4>
+                    <a href="mention.php">Mentions légales</a><br>
+                    <a href="confidentialite.php">Confidentialité</a><br>
                     <a href="#plan">Plan du site</a><br>
                 </div>
                 <div class="smp7">
                     <h4>Liens utiles</h4>
-                    <a href="realisation.php"> Nos réalisations</a><br>
                     <a href="equipe.php">Notre équipe</a><br>
                     <a href="a_propos.php">À propos</a><br>   
+                    <a href="contact.php"> Contact</a><br>
                 </div>
             </div>
         </div>

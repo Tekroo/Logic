@@ -6,7 +6,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     $message = $_POST['mesg'];
     
     // Adresse e-mail de réception
-    $to = 'votreadresse@mail.com';
+    $to = 'logic2007@yahoo.fr';
 
     // Sujet de l'e-mail
     $subject = 'Nouveau message de ' . $name;
